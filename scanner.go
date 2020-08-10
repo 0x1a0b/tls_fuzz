@@ -10,15 +10,6 @@ import (
 
 )
 
-const (
-
-)
-
-
-var (
-
-)
-
 func init() () {
   log.SetFormatter(&log.JSONFormatter{})
   log.SetReportCaller(true)
